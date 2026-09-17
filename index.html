@@ -1092,29 +1092,6 @@
         }
 
         /* ==========================================
-           11. TESTIMONIOS (PLACEHOLDER)
-           ========================================== */
-        .testimonials-section {
-            padding: 9rem 0;
-            background-color: var(--bg-primary);
-            text-align: center;
-        }
-
-        .testimonials-placeholder {
-            max-width: 700px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-
-        .testimonial-box {
-            padding: 3rem;
-            background: var(--bg-secondary);
-            border: 1px dashed var(--border-color);
-        }
-
-        /* ==========================================
            12. FAQ (PREGUNTAS FRECUENTES ACORDEÓN)
            ========================================== */
         .faq-section {
@@ -1188,7 +1165,7 @@
         }
 
         /* ==========================================
-           13. INSTAGRAM FEED VISUAL (PLACEHOLDER)
+           13. INSTAGRAM FEED VISUAL
            ========================================== */
         .instagram-section {
             padding: 7rem 0;
@@ -1217,7 +1194,7 @@
 
         .instagram-grid {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 1rem;
         }
 
@@ -1530,7 +1507,7 @@
             }
 
             .instagram-grid {
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(2, 1fr);
             }
         }
 
@@ -1777,7 +1754,7 @@
                     <!-- Servicio 03 -->
                     <div class="service-card reveal-up active" data-service="bodas">
                         <div class="service-img">
-                            <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Fotografía de Bodas y Civil" loading="lazy" decoding="async">
+                            <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/casamiento/c_9.jpg" alt="Fotografía de Bodas y Civil" loading="lazy" decoding="async" style="object-fit: cover; object-position: 50% 11%;">
                         </div>
                         <div class="service-info">
                             <span class="service-number">03</span>
@@ -1790,7 +1767,7 @@
                     <!-- Servicio 04 -->
                     <div class="service-card reveal-up active" data-service="eventos">
                         <div class="service-img">
-                            <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Cobertura de Eventos" loading="lazy" decoding="async">
+                            <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/eventos/e_4.jpg" alt="Cobertura de Eventos" loading="lazy" decoding="async">
                         </div>
                         <div class="service-info">
                             <span class="service-number">04</span>
@@ -1801,9 +1778,9 @@
                     </div>
 
                     <!-- Servicio 05 -->
-                    <div class="service-card reveal-up" data-service="books">
+                    <div class="service-card reveal-up active" data-service="books">
                         <div class="service-img">
-                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Books fotográficos" loading="lazy" decoding="async">
+                            <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/boock/b_10.jpg" alt="Books fotográficos" loading="lazy" decoding="async" style="object-fit: cover; object-position: 50% 30%;">
                         </div>
                         <div class="service-info">
                             <span class="service-number">05</span>
@@ -1821,12 +1798,12 @@
            ========================================== -->
         <section id="portfolio" class="portfolio-section">
             <div class="container">
-                <div class="section-header reveal-up">
+                <div class="section-header reveal-up active">
                     <span class="section-tag">Galería</span>
                     <h2 class="section-title">HISTORIAS QUE QUEDARON PARA SIEMPRE</h2>
                 </div>
 
-                <div class="portfolio-filters reveal-up">
+                <div class="portfolio-filters reveal-up active">
                     <button class="filter-btn active" data-filter="all">Todos</button>
                     <button class="filter-btn" data-filter="newborn">Newborn</button>
                     <button class="filter-btn" data-filter="15anos">15 Años</button>
@@ -1835,30 +1812,126 @@
                     <button class="filter-btn" data-filter="books">Books</button>
                 </div>
 
-                <div class="portfolio-carousel-wrapper reveal-up">
-                    <div class="carousel-progress" id="carouselProgress">01 / 06</div>
+                <div class="portfolio-carousel-wrapper reveal-up active">
+                    <div class="carousel-progress" id="carouselProgress">01 / 35</div>
                     
                     <div class="carousel-container">
-                        <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-track" id="carouselTrack" style="transition: none; transform: translateX(32.5px);">
                             <div class="carousel-item active" data-category="newborn">
-                                <img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Portfolio Newborn 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/NEWBORN/n_1.jpg" alt="Portfolio Newborn 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
                             </div>
+<div class="carousel-item" data-category="newborn">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/NEWBORN/n_2.jpg" alt="Portfolio Newborn 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="newborn">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/NEWBORN/n_3.jpg" alt="Portfolio Newborn 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="newborn">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/NEWBORN/n_4.jpg" alt="Portfolio Newborn 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="newborn">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/NEWBORN/n_5.jpg" alt="Portfolio Newborn 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+
                             <div class="carousel-item" data-category="bodas">
-                                <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Portfolio Bodas 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/casamiento/c_1.jpg" alt="Portfolio Bodas 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="bodas">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/casamiento/c_2.jpg" alt="Portfolio Bodas 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="bodas">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/casamiento/c_3.jpg" alt="Portfolio Bodas 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div><div class="carousel-item" data-category="bodas">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/casamiento/c_4.jpg" alt="Portfolio Bodas 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="bodas">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/casamiento/c_5.jpg" alt="Portfolio Bodas 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="bodas">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/casamiento/c_6.jpg" alt="Portfolio Bodas 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="bodas">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/casamiento/c_7.jpg" alt="Portfolio Bodas 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="bodas">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/casamiento/c_8.jpg" alt="Portfolio Bodas 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="bodas">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/casamiento/c_9.jpg" alt="Portfolio Bodas 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+
+
+                           
+                            <!-- Fotos de 15 Años (15_1 a 15_4 en jpg, 15_5 a 15_6 en webp) -->
+                            <div class="carousel-item" data-category="15anos">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/15/15_1.jpg" alt="Portfolio 15 Años 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
                             </div>
                             <div class="carousel-item" data-category="15anos">
-                                <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Portfolio 15 Años 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/15/15_2.jpg" alt="Portfolio 15 Años 2" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
                             </div>
+                            <div class="carousel-item" data-category="15anos">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/15/15_3.jpg" alt="Portfolio 15 Años 3" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+                            <div class="carousel-item" data-category="15anos">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/15/15_4.jpg" alt="Portfolio 15 Años 4" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+                            <div class="carousel-item" data-category="15anos">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/15/15_5.webp" alt="Portfolio 15 Años 5" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+                            <div class="carousel-item" data-category="15anos">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/15/15_6.webp" alt="Portfolio 15 Años 6" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+
                             <div class="carousel-item" data-category="books">
-                                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Portfolio Books 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/boock/b_1.jpg" alt="Portfolio Books 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
                             </div>
+<div class="carousel-item" data-category="books">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/boock/b_2.jpg" alt="Portfolio Books 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="books">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/boock/b_3.jpg" alt="Portfolio Books 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="books">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/boock/b_4.jpg" alt="Portfolio Books 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="books">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/boock/b_5.jpg" alt="Portfolio Books 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="books">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/boock/b_6.jpg" alt="Portfolio Books 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="books">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/boock/b_7.jpg" alt="Portfolio Books 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="books">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/boock/b_8.jpg" alt="Portfolio Books 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+<div class="carousel-item" data-category="books">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/boock/b_9.jpg" alt="Portfolio Books 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+
+
                             <div class="carousel-item" data-category="eventos">
-                                <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Portfolio Eventos 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/eventos/e_1.jpg" alt="Portfolio Eventos 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
                             </div>
-                            <div class="carousel-item" data-category="newborn">
-                                <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Portfolio Newborn 2" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+ <div class="carousel-item" data-category="eventos">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/eventos/e_2.jpg" alt="Portfolio Eventos 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
                             </div>
-                        </div>
+ <div class="carousel-item" data-category="eventos">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/eventos/e_3.jpg" alt="Portfolio Eventos 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+ <div class="carousel-item" data-category="eventos">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/eventos/e_4.jpg" alt="Portfolio Eventos 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+ <div class="carousel-item" data-category="eventos">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/eventos/e_5.jpg" alt="Portfolio Eventos 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+ <div class="carousel-item" data-category="eventos">
+                                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/eventos/e_6.jpg" alt="Portfolio Eventos 1" loading="lazy" decoding="async" onclick="openLightbox(this)" draggable="false">
+                            </div>
+
+
+                            </div>
                     </div>
 
                     <div class="carousel-controls">
@@ -1874,10 +1947,10 @@
            ========================================== -->
         <section id="sobre-mi" class="about-section">
             <div class="container about-grid">
-                <div class="about-image reveal-up">
+                <div class="about-image reveal-up active">
                     <img src="https://raw.githubusercontent.com/GealFox/BdF/refs/heads/main/vero-perfil.jpg" alt="Verónica Agüero Fotógrafa" loading="lazy" decoding="async">
                 </div>
-                <div class="about-content reveal-up">
+                <div class="about-content reveal-up active">
                     <span class="section-tag">Sobre mí</span>
                     <h2 class="section-title">Detrás de cada imagen hay una historia.</h2>
                     <p>Mi historia con la fotografía comenzó con el nacimiento de mis hijos y el deseo de conservar esos instantes únicos que pasan una sola vez.</p>
@@ -1895,15 +1968,15 @@
            ========================================== -->
         <section id="estudio" class="studio-section">
             <div class="container studio-grid">
-                <div class="studio-content reveal-up">
+                <div class="studio-content reveal-up active">
                     <span class="section-tag">El Estudio</span>
                     <h2 class="section-title">Un equipo detrás de cada historia.</h2>
                     <h3 class="studio-brand">316 PRODUCCIONES <span class="slogan">"Cambiando la imagen"</span></h3>
                     <p>Un estudio que integra fotografía, video y cobertura integral de eventos con capacidad técnica avanzada y respaldo profesional.</p>
-                    <p class="placeholder-note">[Presentación formal de Verónica y Cristian como equipo de trabajo — completar con información del cliente]</p>
+                    <p class="placeholder-note"></p>
                 </div>
-                <div class="studio-image reveal-up">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="316 Producciones Equipo" loading="lazy" decoding="async">
+                <div class="studio-image reveal-up active">
+                    <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/collage.jpg" alt="316 Producciones Equipo" loading="lazy" decoding="async">
                 </div>
             </div>
         </section>
@@ -1913,24 +1986,24 @@
            ========================================== -->
         <section class="products-section">
             <div class="container">
-                <div class="section-header reveal-up">
+                <div class="section-header reveal-up active">
                     <span class="section-tag">Formato Físico</span>
                     <h2 class="section-title">Porque algunos recuerdos merecen tocarse.</h2>
                 </div>
                 <div class="products-grid">
-                    <div class="product-card reveal-up">
-                        <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Fotolibros artesanales" loading="lazy" decoding="async">
+                    <div class="product-card reveal-up active">
+                        <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/book.jpg" alt="Fotolibros artesanales" loading="lazy" decoding="async">
                         <h4>Fotolibros</h4>
                     </div>
-                    <div class="product-card reveal-up">
+                    <div class="product-card reveal-up active">
                         <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Libros de firmas" loading="lazy" decoding="async">
                         <h4>Libros de firmas</h4>
                     </div>
-                    <div class="product-card reveal-up">
+                    <div class="product-card reveal-up active">
                         <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Bastidores e impresiones" loading="lazy" decoding="async">
                         <h4>Bastidores &amp; Impresiones</h4>
                     </div>
-                    <div class="product-card reveal-up">
+                    <div class="product-card reveal-up active">
                         <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Entrega digital y pendrive" loading="lazy" decoding="async">
                         <h4>Entrega digital / Pendrive</h4>
                     </div>
@@ -1943,11 +2016,11 @@
            ========================================== -->
         <section class="process-section">
             <div class="container">
-                <div class="section-header reveal-up">
+                <div class="section-header reveal-up active">
                     <span class="section-tag">Metodología</span>
                     <h2 class="section-title">Así trabajamos</h2>
                 </div>
-                <div class="process-steps reveal-up">
+                <div class="process-steps reveal-up active">
                     <div class="step">
                         <span class="step-num">01</span>
                         <h4>Nos contás tu idea</h4>
@@ -1977,42 +2050,22 @@
            ========================================== -->
         <section class="trust-section">
             <div class="container">
-                <div class="section-header reveal-up">
+                <div class="section-header reveal-up active">
                     <span class="section-tag">Compromiso</span>
                     <h2 class="section-title">Confianza y Transparencia</h2>
                 </div>
                 <div class="trust-grid">
-                    <div class="trust-item reveal-up">
+                    <div class="trust-item reveal-up active">
                         <h4>Entrega de material</h4>
                         <p>Procesos claros, seguros y formales en cada etapa acordada del servicio.</p>
                     </div>
-                    <div class="trust-item reveal-up">
+                    <div class="trust-item reveal-up active">
                         <h4>Condiciones claras</h4>
                         <p>Reserva asegurada mediante seña del 50% para garantizar tu fecha.</p>
                     </div>
-                    <div class="trust-item reveal-up">
+                    <div class="trust-item reveal-up active">
                         <h4>Atención personalizada</h4>
                         <p>Acompañamiento directo, calidez y asesoramiento permanente con Verónica.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ==========================================
-           TESTIMONIOS (PLACEHOLDER)
-           ========================================== -->
-        <section class="testimonials-section">
-            <div class="container">
-                <div class="section-header reveal-up">
-                    <span class="section-tag">Experiencias</span>
-                    <h2 class="section-title">Lo que dicen quienes confiaron</h2>
-                </div>
-                <div class="testimonials-placeholder reveal-up">
-                    <div class="testimonial-box">
-                        <p class="placeholder-note">[TESTIMONIO REAL — completar con cliente]</p>
-                    </div>
-                    <div class="testimonial-box">
-                        <p class="placeholder-note">[TESTIMONIO REAL — completar con cliente]</p>
                     </div>
                 </div>
             </div>
@@ -2023,11 +2076,11 @@
            ========================================== -->
         <section class="faq-section">
             <div class="container">
-                <div class="section-header reveal-up">
+                <div class="section-header reveal-up active">
                     <span class="section-tag">Dudas frecuentes</span>
                     <h2 class="section-title">Preguntas Frecuentes</h2>
                 </div>
-                <div class="faq-accordion reveal-up">
+                <div class="faq-accordion reveal-up active">
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">¿Cómo se reserva una fecha? <span class="icon">+</span></button>
                         <div class="faq-answer"><p>La reserva de la fecha se efectiviza mediante una seña del 50% del servicio contratado.</p></div>
@@ -2038,7 +2091,7 @@
                     </div>
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">¿Cuánto demora la entrega? <span class="icon">+</span></button>
-                        <div class="faq-answer"><p class="placeholder-note">[Información a confirmar con el cliente]</p></div>
+                        <div class="faq-answer"><p class="placeholder-note">A los pocos días del evento</p></div>
                     </div>
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">¿Realizan fotografía y video? <span class="icon">+</span></button>
@@ -2050,37 +2103,34 @@
                     </div>
                     <div class="faq-item">
                         <button class="faq-question" aria-expanded="false">¿Trabajan fuera de la zona habitual? <span class="icon">+</span></button>
-                        <div class="faq-answer"><p class="placeholder-note">[Información a confirmar con el cliente]</p></div>
+                        <div class="faq-answer"><p class="placeholder-note">Solemos estar por Pacheco, Tigre, Talar y cotizamos para ampliar la zona.</p></div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- ==========================================
-           INSTAGRAM FEED VISUAL (PLACEHOLDER)
+           INSTAGRAM FEED VISUAL
            ========================================== -->
         <section class="instagram-section">
             <div class="container">
-                <div class="instagram-header reveal-up">
+                <div class="instagram-header reveal-up active">
                     <span class="section-tag">Comunidad</span>
                     <h2 class="section-title" style="margin-bottom: 1rem;">Seguinos en Instagram</h2>
                     <a href="https://instagram.com/producciones_316" target="_blank" rel="noopener">@producciones_316</a>
                 </div>
-                <div class="instagram-grid reveal-up">
+                <div class="instagram-grid reveal-up active">
                     <div class="instagram-item">
-                        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Instagram Post 1" loading="lazy" decoding="async">
+                        <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/1.webp?auto=format&amp;fit=crop&amp;w=600&amp;q=120" alt="Instagram Post 1" loading="lazy" decoding="async" style="object-fit: cover; object-position: 47% 0%;">
                     </div>
                     <div class="instagram-item">
-                        <img src="https://images.unsplash.com/photo-1544126592-807ade215a0b?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Instagram Post 2" loading="lazy" decoding="async">
+                        <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/2.jpg" alt="Instagram Post 2" loading="lazy" decoding="async" style="object-fit: cover; object-position: 50% 0%;">
                     </div>
                     <div class="instagram-item">
-                        <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Instagram Post 3" loading="lazy" decoding="async">
+                        <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/3.webp" alt="Instagram Post 3" loading="lazy" decoding="async" style="object-fit: cover; object-position: 50% 0%;">
                     </div>
                     <div class="instagram-item">
-                        <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Instagram Post 4" loading="lazy" decoding="async">
-                    </div>
-                    <div class="instagram-item">
-                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Instagram Post 5" loading="lazy" decoding="async">
+                        <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/4.webp" alt="Instagram Post 4" loading="lazy" decoding="async" style="object-fit: cover; object-position: 50% 4%;">
                     </div>
                 </div>
             </div>
@@ -2090,7 +2140,7 @@
            CONTACTO / CTA FINAL (OSCURO)
            ========================================== -->
         <section id="contacto" class="contact-section">
-            <div class="container reveal-up">
+            <div class="container reveal-up active">
                 <span class="section-tag">Contacto</span>
                 <h2 class="section-title">Tu historia merece ser recordada.</h2>
                 <p class="contact-text">Contanos qué momento querés guardar para siempre.</p>
@@ -2115,6 +2165,7 @@
             <div>
                 <img src="https://raw.githubusercontent.com/GealFox/BdF/refs/heads/main/logo_compuesto.png" alt="Verónica Agüero Fotógrafa" class="footer-logo-img">
                 <p class="footer-sub">316 PRODUCCIONES "Cambiando la imagen"</p>
+                <img src="https://raw.githubusercontent.com/GealFox/Vwrb/refs/heads/main/imagen/316.jpg" alt="Logo 316 Producciones" style="max-width: 90px; margin-top: 1.5rem; border-radius: 4px; display: block; object-fit: cover; object-position: 50% 52%;">
             </div>
             <div class="footer-copy">
                 <p>© 2026 Verónica Agüero &amp; 316 Producciones. Todos los derechos reservados.</p>
@@ -2557,5 +2608,10 @@
 
         });
     </script>
+
+
+
+
+
 </body>
 </html>
